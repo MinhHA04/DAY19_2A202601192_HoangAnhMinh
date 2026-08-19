@@ -8,6 +8,7 @@ __pycache__/
 *$py.class
 *.so
 .pytest_cache/
+outputs/checkpoints/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -17,8 +18,21 @@ venv/
 .venv/
 env/
 
-# Large Datasets and data dumps (do not commit 300MB data dumps)
+# Large datasets and data dumps (do not commit 300MB source/checkpoint files)
+*.csv
 golden_dataset.csv
+!data/sample_news.csv
+!data/golden_dataset.csv
+!outputs/graphrag_eval_results.csv
+!outputs/graphrag_vs_flatrag_summary.csv
+!outputs/entity_resolution_audit.csv
+!outputs/top_degree_nodes.csv
+!outputs/community_reports.csv
+!outputs/canonical_triples.csv
+!outputs/coreference_audit.csv
+!outputs/near_dedup_audit.csv
+!outputs/self_correction_audit.csv
+!outputs/global_community_search.csv
 !reports/*.csv
 *.jsonl
 *.parquet

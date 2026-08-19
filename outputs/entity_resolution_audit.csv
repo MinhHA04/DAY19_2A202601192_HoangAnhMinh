@@ -1,0 +1,12 @@
+type,left,right,similarity,lexical_ratio,decision,reason
+Company,Google LLC,Google,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,Microsoft Corporation,Microsoft,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,MSFT,Microsoft,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,Meta Platforms,Meta,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,Apple Inc,Apple,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,AAPL,Apple,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,GOOGL,Google,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,Microsoft Corp,Microsoft,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,Meta Platforms Inc,Meta,1.0,1.0,MERGE_MANUAL,curated alias map
+Company,GOOG,Google,1.0,1.0,MERGE_MANUAL,curated alias map
+Technology,Llama 2,Llama 3,0.9224769473075867,0.8571428571428571,REJECT_GUARD,vector + lexical guard

@@ -1,0 +1,21 @@
+Question group,Metric,Flat RAG,GraphRAG,Delta (Graph-Flat),Analysis
+cross-doc,Comprehensiveness,5.0,5.0,0.0,The methods were close on this metric.
+cross-doc,Faithfulness,5.0,5.0,0.0,The methods were close on this metric.
+cross-doc,Multi-hop reasoning,5.0,5.0,0.0,The methods were close on this metric.
+cross-doc,Latency (s),1.894,1.865,-0.029,GraphRAG was not more expensive in this sample.
+cross-doc,Token usage,693.5,1071.5,378.0,Flat RAG is cheaper/faster in this run.
+factoid,Comprehensiveness,5.0,5.0,0.0,The methods were close on this metric.
+factoid,Faithfulness,5.0,5.0,0.0,The methods were close on this metric.
+factoid,Multi-hop reasoning,5.0,5.0,0.0,The methods were close on this metric.
+factoid,Latency (s),3.16,1.753,-1.407,GraphRAG was not more expensive in this sample.
+factoid,Token usage,624.0,571.0,-53.0,GraphRAG was not more expensive in this sample.
+multi-hop,Comprehensiveness,3.5,5.0,1.5,GraphRAG improved this quality metric materially.
+multi-hop,Faithfulness,3.5,5.0,1.5,GraphRAG improved this quality metric materially.
+multi-hop,Multi-hop reasoning,3.5,5.0,1.5,GraphRAG improved this quality metric materially.
+multi-hop,Latency (s),1.749,1.576,-0.172,GraphRAG was not more expensive in this sample.
+multi-hop,Token usage,589.5,873.5,284.0,Flat RAG is cheaper/faster in this run.
+overall,Comprehensiveness,4.4,5.0,0.6,The methods were close on this metric.
+overall,Faithfulness,4.4,5.0,0.6,The methods were close on this metric.
+overall,Multi-hop reasoning,4.4,5.0,0.6,The methods were close on this metric.
+overall,Latency (s),2.089,1.727,-0.362,GraphRAG was not more expensive in this sample.
+overall,Token usage,638.0,892.2,254.2,Flat RAG is cheaper/faster in this run.

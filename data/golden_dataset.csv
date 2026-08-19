@@ -1,0 +1,6 @@
+id,group,question,reference_answer,reference_evidence
+G01,factoid,Who led Hugging Face as chief executive officer in 2023?,Clément Delangue was Hugging Face's chief executive officer in 2023.,gold01::c0000
+G02,multi-hop,Which AI company received an investment from Google in 2023 and developed Claude?,Anthropic; Google invested in Anthropic on 2023-10-27 and Anthropic developed Claude on 2023-03-14.,gold02::c0000 | gold03::c0000
+G03,multi-hop,Which named AI technology was developed by the company that received Microsoft's expanded investment in January 2023?,GPT-4; Microsoft invested in OpenAI on 2023-01-23 and OpenAI developed GPT-4 on 2023-03-14.,gold05::c0000 | gold06::c0000
+G04,cross-doc,How did Microsoft's documented investment in OpenAI change between 2019 and 2023?,Microsoft invested one billion dollars in OpenAI in July 2019 and expanded the partnership with a ten-billion-dollar investment in January 2023.,gold04::c0000 | gold05::c0000
+G05,cross-doc,How did Meta's named Llama releases change from 2023 to 2024?,Meta released Llama 2 in July 2023 and followed it with the improved Llama 3 generation in April 2024.,gold07::c0000 | gold08::c0000

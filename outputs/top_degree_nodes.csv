@@ -1,0 +1,16 @@
+id,name,type,degree
+e6c3db5c28c9a15bfafd2e04,Apple,Company,6
+fb0f4df56fab164ec48722f0,Microsoft,Company,6
+9c282c38e493c826ee79d229,Anthropic,Company,5
+0e132222d1315530d6efca52,Google,Company,5
+6dbfdfc5a4e8df3668a4dac3,Meta,Company,5
+773eeb9b7cc008bff365fcdd,OpenAI,Company,4
+d2c297dc6aa8072764789bf6,Clément Delangue,Person,2
+b9aa51590a1f9be00427401b,Disney,Company,2
+743e8575f76a282c9989137d,ESPN,Company,2
+7143630392df3f19fee3aab9,Hugging Face,Company,2
+5b7a55c107219d318b6607be,PyTorch,Technology,2
+5bd69c238e0e992d98836dba,Apple Silicon,Technology,1
+e01a6348ff22776e0ca8e85c,Azure,Technology,1
+b047876f9b6da8bf20376c53,Azure AI infrastructure,Technology,1
+fa7547f12b311691ea7ed86c,Beats Electronics,Company,1

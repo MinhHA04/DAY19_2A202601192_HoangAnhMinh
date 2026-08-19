@@ -1,0 +1,92 @@
+{
+  "started_at": "2026-08-19T11:02:29.504347+00:00",
+  "config": {
+    "root": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh",
+    "data_dir": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh\\data",
+    "output_dir": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh\\outputs",
+    "report_dir": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh\\reports",
+    "cache_dir": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh\\outputs\\checkpoints",
+    "lab_max_articles": 1500,
+    "lab_max_chunks": 3000,
+    "extraction_max_chunks": 30,
+    "chunk_words": 220,
+    "chunk_overlap_words": 40,
+    "entity_threshold": 0.9,
+    "lexical_threshold": 0.72,
+    "seed_threshold": 0.66,
+    "super_node_degree": 100,
+    "super_node_edge_cap": 50,
+    "global_edge_cap": 250,
+    "max_graph_context_chars": 14000,
+    "dataset_id": "day19_hackernoon",
+    "seed": 42
+  },
+  "status": "complete",
+  "dataset": {
+    "path": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh\\data\\hackernoon_subset.csv",
+    "fallback_reason": "Official HackerNoon source was unavailable when this public derivative cache was materialized.",
+    "source": "MongoDB/tech-news-embeddings",
+    "cache_hit": true,
+    "rows": 1500,
+    "size_mb": 0.52
+  },
+  "graph": {
+    "backend": "neo4j",
+    "connection": "local_docker",
+    "uri": "bolt://localhost:7687",
+    "fallback_reason": "configured:AuthError"
+  },
+  "golden_dataset": {
+    "path": "C:\\Users\\ADMIN\\.vscode\\VinAI_LAB\\DAY19_2A202601192_HoangAnhMinh\\data\\golden_dataset.csv",
+    "rows": 5
+  },
+  "finished_at": "2026-08-19T11:02:42.243821+00:00",
+  "counts": {
+    "articles": 980,
+    "chunks": 980,
+    "extraction_chunks": 30,
+    "raw_triples": 31,
+    "canonical_triples": 31,
+    "entity_audit_rows": 11,
+    "nodes": 32,
+    "edges": 31,
+    "invalid_provenance_edges": 0
+  },
+  "supernode_test": {
+    "status": "PASS",
+    "node_id": "e6c3db5c28c9a15bfafd2e04",
+    "degree": 6,
+    "fetched": 6
+  },
+  "bonus": {
+    "near_dedup_dropped": 12,
+    "community_count": 10,
+    "self_correction_route": "hop2",
+    "global_search_completed": true
+  },
+  "llm": {
+    "current_run_events": {},
+    "materialization_events": {
+      "groq:NotFoundError": 1,
+      "openai:ok": 25
+    },
+    "coref_calls": 0,
+    "extraction_calls": 0,
+    "evaluation_cache_hit": true
+  },
+  "artifacts": [
+    "canonical_triples.csv",
+    "chunks.csv",
+    "community_reports.csv",
+    "coreference_audit.csv",
+    "entity_resolution_audit.csv",
+    "extraction_errors.csv",
+    "global_community_search.csv",
+    "graphrag_eval_results.csv",
+    "graphrag_vs_flatrag_summary.csv",
+    "near_dedup_audit.csv",
+    "raw_triples.csv",
+    "self_correction_audit.csv",
+    "top_degree_nodes.csv"
+  ]
+}
